@@ -1,0 +1,6 @@
+version: 1
+deploy:
+  steps:
+    setupVariables:
+      after:
+        - pip install -r requirements.txt
