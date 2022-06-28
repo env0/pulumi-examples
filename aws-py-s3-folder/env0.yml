@@ -4,3 +4,4 @@ deploy:
     setupVariables:
       after:
         - pip3 install -r requirements.txt
+        - pulumi version
