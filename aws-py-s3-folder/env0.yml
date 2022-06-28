@@ -5,3 +5,6 @@ deploy:
       after:
         - /home/node/.pulumi/bin/pulumi version
         - pip3 install -r requirements.txt
+    pulumiLogin:
+      before:
+        - pulumi version
